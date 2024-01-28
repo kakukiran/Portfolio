@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- -------------boostrap link starting------------- -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <!-- -------------boostrap link ending------------- -->
+    <!-- ----------------font awesome starting-------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ----------------font awesome ending-------------- -->
+
+    <!-- ------------google fonts starting----------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ------------google fonts ending----------------- -->
+    <!-- ------------------external css----------------- -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ------------navbar starting--------------------- -->
+    <section class="header_wrapper">
+      <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bold text-dark" href="#">Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- ------------navbar ending--------------------- -->
+    <!-- -------------------home starting--------------------- -->
+    <section class="home_wrapper py-4" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items center align-content-center">
+          <div class="col-md-6 col-sm-12">
+            <div class="home-img">
+              <img
+                src="./images/profile1.jpg"
+                class="rounded-circle mw-100"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-6 order-md-first col-sm-12">
+            <div class="home-text">
+              <p class="fs-5">Hello, I am</p>
+              <h1 class="text-primary home-myname fw-bold">Kaku Kiran</h1>
+              <h3 class="fs-3">Web Developer</h3>
+              <p class="text-secondary">
+                I am a professional web developer with expertise in HTML, CSS,
+                BOOTSTRAP, JAVASCRIPT.
+              </p>
+              <a class="btn btn1 btn-primary mt-1 me-2 ms-1" href="https://drive.google.com/file/d/1LsnjgNpqT8M_Bl5UcC0q-RS9wyDNBzn9/view?usp=drivesdk">Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------home ending--------------------- -->
+    <!-- ------------------- about starting ------------  -->
+    <section class="about py-5" id="about">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="about-name">
+            <h1>About Me</h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h5 class="fw-bold">
+                I am a dedicated professional with strong analytical and
+                programming skills.
+              </h5>
+              <p>
+                I am a dedicated individual with a passion for continuous
+                learning and growth. My skills include proficiency in various
+                programming languages, strong analytical abilities, and
+                effective communication. I thrive in collaborative environments
+                and am adept at problem-solving.
+              </p>
+              <a class="btn btn1 btn-primary mt-1 me-2 ms-1" href="https://drive.google.com/file/d/1LsnjgNpqT8M_Bl5UcC0q-RS9wyDNBzn9/view?usp=drivesdk">More Info</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill-item">
+             <h4 class="fs-5">Html</h4>
+             <div class="progress" style="height: 9px;" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar text-bg-primary" style="width: 90%">90%</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="fs-5">Css</h4>
+              <div class="progress" style="height: 9px;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+               <div class="progress-bar text-bg-primary" style="width: 85%">85%</div>
+             </div>
+             <div class="skill-item">
+              <h4 class="fs-5">Bootstrap</h4>
+              <div class="progress" style="height: 9px;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+               <div class="progress-bar text-bg-primary" style="width: 85%">90%</div>
+             </div>
+             <div class="skill-item">
+              <h4 class="fs-5">Javascript</h4>
+              <div class="progress" style="height: 9px;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+               <div class="progress-bar text-bg-primary" style="width: 75%">75%</div>
+             </div>
+             <div class="skill-item">
+              <h4 class="fs-5">Java</h4>
+              <div class="progress" style="height: 9px;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+               <div class="progress-bar text-bg-primary" style="width: 55%">45%</div>
+             </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------- about ending ------------  -->
+    <!-- --------- services starting ------------  -->
+    <section class="services py-5" id="services">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="about-name">
+            <h1>Services</h1>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div class="services-item shadow-sm p-4 rounded">
+              <div class="icon">
+                <i class="fa-solid fa-code" style="font-size: 40px;" ></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>Expertise in creating responsive and visually appealing websites with cutting-edge technologies.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div class="services-item shadow-sm p-4 rounded">
+              <div class="icon">
+                <i class="fa-regular fa-lightbulb" style="font-size: 40px;"></i>
+              </div>
+              <h3>Content Creating</h3>
+              <p> Craft compelling and engaging written content for websites, blogs, and marketing materials.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div class="services-item shadow-sm p-4 rounded">
+              <div class="icon">
+                <i class="fa-solid fa-chart-simple" style="font-size: 40px;"></i>
+              </div>
+              <h3>Graphic design</h3>
+              <p> Design eye-catching visuals, infographics, and social media posts to enhance content presentation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- services ending ------------  -->
+    <!-- -------- contact starting ------------  -->
+    <section class="contact py-5" id="contact">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="about-name">
+            <h1>Contact Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-5 col-sm-12 p-4">
+              <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-primary">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text ms-3">
+                  <h4>Email</h4>
+                  <a href="mailto:kirankiran00373@gmail.com">
+                  <p class="text-muted ">kirankiran00373@gmail.com</p>
+
+                  </a>
+                  <!-- <p class="text-muted ">kirankiran00373@gmail.com</p> -->
+                </div>
+              </div>
+              <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-primary">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="text ms-3">
+                  <h4>Phone</h4>
+                  <p class="text-muted ">91 9381 290 ***</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-sm-12">
+              <div class="contact-form py-4">
+                <form>
+                  <div class="mb-4">
+                    <input type="text" class="form-control" placeholder="name" autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                    <input type="number" class="form-control" placeholder="phone-number" autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                    <input type="email" class="form-control" placeholder="email" autocomplete="off">
+                  </div>
+                  <div class="mb-4">
+                    <input cols="40" row="4" class="form-control" id="message" placeholder="write your message" autocomplete="off">
+                  </div>
+                  <button type="submit" class="btn btn1 btn-primary">submit</button>
+               </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- --------- contact ending ------------  -->
+    <!-- footer starting -->
+    <section class="footer">
+      <div class="footer text-center">
+        <div class="container">
+          <div class="row">
+              <div class="container foot">
+                <div class="row p-3">
+
+                  <div
+                    class="col-lg-6 mt-4 col-sm-12 d-flex justify-content-center gap-4"
+                  >
+                    <div>
+                      <h7 class="footer-name mt-2 fs-6">Follow me</h7>
+                    </div>
+                    <a
+                      href="https://www.linkedin.com/in/kiran-kaku-984303268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      class="logo-ftr"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                    <a href="https://www.instagram.com/kiran__009__?igsh=d2Q5eW05c2U2bXNm" class="logo-ftr"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                    <a
+                      href="https://x.com/Kiran_009_?t=XFTxao7cyur5nz73KYi7Tw&s=09"
+                      class="logo-ftr"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/kiranyadav.kaku.3?mibextid=vk8aRt"
+                      class="logo-ftr"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                    <a href="https://github.com/kakukiran" class="logo-ftr"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </div>
+                  <h2 class="col-lg-6 mt-4 col-sm-12 fs-6 text-dark">
+                    Copyright &copy; 2024 Kiran .All Rights Reserved
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer ending -->
+
+
+
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,210 @@
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  overflow-x: hidden;
+}
+/* -----navbar starting---  */
+.header_wrapper .navbar {
+  background-color: white;
+}
+.header_wrapper .navbar-toggler {
+  border: 0;
+  color: #007bff;
+  line-height: 2;
+}
+
+.header_wrapper .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.header_wrapper .nav-item {
+  margin: 0 10px;
+}
+
+.nav-item .nav-link {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+}
+
+.header_wrapper .nav-item .nav-link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  transition: 0.3s;
+  bottom: 0;
+}
+
+.header_wrapper .nav-item .nav-link.active::after,
+.header_wrapper .nav-item .nav-link:hover::after {
+  width: 100%;
+  color: #007bff;
+}
+
+.header_wrapper .nav-item .nav-link.active,
+.header_wrapper .nav-item .nav-link:hover {
+  color: #007bff;
+}
+/* -----navbar ending------- */
+
+/* -----home starting------- */
+.home_wrapper{
+  width: 100%;
+  height: 100vh;
+}
+.home-img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-color: #0a7dc0;
+  border: 3px dashed #262626;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: fill;
+}
+.home-myname{
+  font-size: 60px;
+   margin-top: -10px;
+}
+.home-text{
+  margin-left: 70px;
+}
+.btn1 {
+  border: 2px solid white;
+}
+.btn1:hover {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+}
+/* ---------- about----  */
+.about-name h1 {
+  margin-top: 20px;
+  font-size: 45px;
+  text-align: center;
+}
+.about-name h1::after {
+  content: "";
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto 5px;
+}
+/* ------about ending -------  */
+/* ----- services -----  */
+.services-item{
+  cursor: pointer;
+  transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+  box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
+.services-item:hover{
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-10px);
+}
+/* ---------footer---  */
+.footer {
+  height: 120px;
+  background: url("./images/svg4.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+}
+.footer-name {
+  color: black;
+  font-weight: 40px;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo-ftr {
+  font-size: 20px;
+}
+.logo-ftr:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+/* ---- responsive ----  */
+@media (max-width: 550px) {
+  body {
+    width: 100%;
+  height: 100vh;
+  margin: 0px;
+  overflow-x: hidden;
+      /* background-color: red; */
+      
+  }
+  .home-img{
+    width: 250px;
+    height: 250px;
+  }
+  .home-myname{
+    font-size: 45px;
+  }
+  .home-text{
+    margin-top: 60px;
+  }
+  .skill-item{
+    margin-top: 30px;
+  }
+  .services{
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .contact{
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .footer {
+    height: 160px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 551px) and (max-width: 900px) {
+  body {
+    width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+      /* background-color: yellow; */
+  }
+  .services{
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .contact{
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .footer {
+    height: 140px;
+  }
+}
